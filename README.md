@@ -5,7 +5,7 @@
 ### Team 1 Members
 - Hunter Jerry McPherson: [Hunter6058](https://github.com/Hunter6058)
 - Rodolfo Jose Chavez: [RodolfoChavez22](https://github.com/RodolfoChavez22)
-- Elinnoel S Nuñez: [elinnunez](https://github.com/elinnunez)
+- Elinnoel S. Nuñez: [elinnunez](https://github.com/elinnunez)
 - Justin Isaac Jose: [jjugsting](https://github.com/jjugstin)
 
 ## Project Description
