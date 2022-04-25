@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 25, 2022 at 03:08 AM
+-- Generation Time: Apr 25, 2022 at 03:52 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.28
 
@@ -648,7 +648,15 @@ INSERT INTO `audit` (`Audit_id`, `Type`, `Type_id`, `Action`, `Date`) VALUES
 (636, 'user', 1, 'UPDATE', '2022-04-25 00:57:22'),
 (637, 'book', 15, 'UPDATE', '2022-04-25 00:58:13'),
 (638, 'user', 1, 'UPDATE', '2022-04-25 00:58:13'),
-(639, 'book', 9, 'DELETE', '2022-04-25 00:59:55');
+(639, 'book', 9, 'DELETE', '2022-04-25 00:59:55'),
+(640, 'user', 17, 'INSERT', '2022-04-25 01:49:23'),
+(641, 'user', 18, 'INSERT', '2022-04-25 01:49:51'),
+(642, 'user', 16, 'UPDATE', '2022-04-25 01:50:45'),
+(643, 'user', 17, 'UPDATE', '2022-04-25 01:51:01'),
+(644, 'user', 18, 'UPDATE', '2022-04-25 01:51:11'),
+(645, 'user', 17, 'UPDATE', '2022-04-25 01:51:21'),
+(646, 'user', 18, 'UPDATE', '2022-04-25 01:51:29'),
+(647, 'user', 16, 'UPDATE', '2022-04-25 01:51:35');
 
 -- --------------------------------------------------------
 
@@ -1737,7 +1745,9 @@ INSERT INTO `user` (`User_id`, `Fname`, `Lname`, `Email`, `Username`, `Password`
 (13, 'asdasd', 'asdsadas', 'asdasdasd@asdasdasd.com', 'asdasw3qeaw', '$2y$10$dyqUSjVTe2jaSxjTWI9JUecrvwCkYPIKLO2hhzck9qe/cHwW/j8Jy', '0.00', '2016-09-24', '78421237451', 0, '2022-03-04 15:52:08', 'user', 0),
 (14, 'asdasd', 'asdasd', 'asdasds@asdasd.com', '1234', '$2y$10$aufDmAvcr7uWCFCMvpvNM.zSht2r9wSb/CPCxvbB0mlwy.UrghnbW', '0.00', '2022-04-11', '712347281231', 0, '2022-04-19 16:38:54', 'user', 0),
 (15, 'Oscar', 'Crawfish', 'OscarCraw@hotmail.com', 'CrawfishGuy', '$2y$10$8HUoWTcCDqzS.ftyPa8Ive5xyHia.E2xkBjefpGvAfWjU0A5HP1Iy', '0.00', '2022-04-24', '457219284112', 1, '2022-04-24 19:49:19', 'user', 0),
-(16, 'Cougar', 'Tester', 'Cougar@Cougarnet.UH.EDU', 'Cougar', '$2y$10$8QlhADOI5zcauE/pPYBBjuP3ghc2LI9gOW/U3trLrGATugiRcJFLi', '0.00', NULL, NULL, 2, '2022-04-24 19:56:34', 'user', 0);
+(16, 'Cougar', 'Tester', 'Cougar@Cougarnet.UH.EDU', 'Cougar', '$2y$10$8QlhADOI5zcauE/pPYBBjuP3ghc2LI9gOW/U3trLrGATugiRcJFLi', '0.00', '2000-04-01', '2812812810', 2, '2022-04-24 19:56:34', 'user', 0),
+(17, 'FNSTAFF', 'LNSTAFF', 'staff@aol.com', 'STAFF', '$2y$10$uDx7oa9ajESo6xTpE1NLYeZ2t8wn5gHW.5eyNMq1PMvkx3VvK0V9W', '0.00', '2000-01-01', '8328328320', 0, '2022-04-24 20:49:23', 'user', 0),
+(18, 'FNUSER', 'LNUSER', 'user@aol.com', 'USER', '$2y$10$KwNOf5WpayBYoHJ3qO0HC.XKtG4ka1k0DknlWBkJ6uyu8.h8nywUu', '0.00', '2005-05-05', '7777777777', 0, '2022-04-24 20:49:51', 'user', 0);
 
 --
 -- Triggers `user`
@@ -1971,7 +1981,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `audit`
 --
 ALTER TABLE `audit`
-  MODIFY `Audit_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=640;
+  MODIFY `Audit_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=648;
 
 --
 -- AUTO_INCREMENT for table `author`
@@ -2115,7 +2125,7 @@ ALTER TABLE `reservation_status`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `User_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `User_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- Constraints for dumped tables
