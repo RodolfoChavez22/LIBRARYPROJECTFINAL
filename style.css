@@ -1,0 +1,592 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    list-style: none; 
+    text-decoration: none; 
+    box-sizing: border-box;
+    font-family: Arial, HelvSetica, sans-serif;
+}
+
+.testing-admin{
+    font-size: 40px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+.admin-table i span{
+    vertical-align: middle;
+}
+
+
+
+/*  ---------------------------------------------------------------------------------------------------------------------------------- 
+        Admin Dash
+
+        UI: Hunter
+        Data: Hunter
+*/
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    
+}
+
+.side-bar{
+    border-radius: 15px;
+    margin-left: -10px;
+    height: 85.5vh;
+    background-image: linear-gradient(#960C22, #8a0f23);
+    box-shadow: 0px 0px 10px 2px rgb(43,43,43);
+    position: -webkit-sticky;
+    position: sticky;
+    top:8.1vh;
+    z-index: 1;
+    width: 13%;
+}
+
+.dash-title{
+    margin: 30px 30px;
+    font-size: 20px;
+    color:white;
+}
+
+.list{
+    margin: 50px 30px;
+}
+
+.list .icon-divider{
+    padding-bottom: 20px;
+}
+
+.list .icons{
+    display:flex;
+    align-items:baseline;
+    padding: 12px 0px;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+}
+
+.list .icons:hover{
+    background-color: #6d1818;
+    cursor:pointer;
+    padding: 12px 10px;
+    border-radius: 10px;
+    
+}
+
+.list .icons p{
+    margin-left: 20px;
+}
+
+.s-icon{
+    display: flex;
+    align-items: baseline;
+    padding-right: 117px;
+    color: white;
+    cursor: pointer;
+}
+
+.content{
+    padding: 40px 40px;
+    width:100%;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-left: -120px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.content .add-item{
+    background: #960c22;
+    padding: 10px;
+    margin-top: 16px;
+    border-radius: 10px;
+    width: 10%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dash-item{
+    background: #960c22;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 60px;
+    margin: 1px 30px;
+    width: 16%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid rgba(0, 0, 0, .10);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.admin-table{
+    border-collapse: collapse;
+    width: 100%;
+    color: #d96459;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid #545854;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.admin-table th{
+    background-color: #d96459;
+    color:white; 
+}
+
+.admin-table th:hover{
+    background-color: #818181;  
+}
+
+.admin-table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+/*  ----------------------------------------------------------------------------------------------------------------------------------
+    LOGIN & SIGNUP PAGE
+    UI: Hunter
+*/
+
+.signup-body{
+    overflow: auto;
+    position:fixed;
+    padding:0;
+    margin-left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+}
+
+.login-body{
+    overflow: auto;
+    position:fixed;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+}
+
+.display-body{
+    overflow: auto;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+
+.login-input, .signup-input{
+    margin: 10 auto;
+}
+
+
+.login-input i, .signup-input i{
+    color: #54585A;
+    margin-left: -40px; 
+    cursor: pointer;
+}
+
+
+
+.login-input i span, .signup-input i span {
+    margin-bottom: -3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login-form, .signup-form, .display-form {
+    width: 500px;
+    border: 2px solid #54585A;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.add-form {
+    width: 80%;
+    border: 2px solid #54585A;
+    padding: 20px;
+    margin: 30px auto;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.add-form-electronic {
+    width: 60%;
+    border: 2px solid #54585A;
+    padding: 20px;
+    margin: 30px auto;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+
+.signup-form h2, .login-form h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.signup-form h3, .add-form h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-input input{
+    display: inline-block;
+    border: 2px solid #54585A;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    border-radius: 5px; 
+}
+
+.signup-input select, .signup-input .datalist {
+    display: inline-block;
+    border: 2px solid #54585A;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+}
+.add-header{
+    font-size: 30px;
+}
+
+.add-authors .add-label{
+    margin-left: -10px;
+    font-size: 20px;
+}
+
+.add-margin .add-label{
+
+    font-size: 20px;
+}
+
+.add-form select{
+    margin: 0 10px;
+    font-size: 15px;
+    border-radius: 5px; 
+    border: 2px solid #54585A;
+}
+
+.add-input .add-authors{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 10px auto;
+}
+
+.add-input .add-genre{
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    border-left: 6px solid rgba(84, 88, 89, 0.7);
+    margin: 10px auto;
+}
+
+.add-input .add-margin{
+    margin-left: 20px;
+}
+
+.add-authors input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 2px solid #54585A;
+    border-radius: 5px; 
+}
+
+.add-genre .add-form-types input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #54585A;
+    border-radius: 5px; 
+}
+.add-authors input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 2px solid #54585A;
+    border-radius: 5px; 
+}
+
+.add-genre .datalist{
+    width: 15%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #54585A;
+    border-radius: 5px; 
+}
+
+.signup-input .input-double{
+    display: inline-block;
+    border: 2px solid #54585A;
+    width: 49.4%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+}
+
+
+.signup-input .input-single, .login-input .input-single{
+    display: inline-block;
+    border: 2px solid #54585A;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+}
+
+.signup-input .label-single, .login-input .label-single, .add-input .label-single{
+    color: #000000;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.ImageUpload{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+.signup-input .label-double-author {
+    color: #000000;
+    font-size: 18px;
+    margin-left: 140px;
+}
+
+.signup-input .label-double {
+    color: #000000;
+    font-size: 18px;
+    margin-left: 173px;
+}
+
+.signup-input .label-space {
+    color: #000000;
+    font-size: 18px;
+    margin-left: 83px;
+}
+
+.signup-input .label-button button{
+    background: #960c22;
+    padding: 5px;
+    width: 10%;
+    color: #fff;
+    margin-left: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-button button, .login-button td input {
+    background: #960c22;
+    padding: 10px;
+    width: 435px;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.message-logredirect{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.link-logredirect{
+    color: black;
+    margin-left: 98px;
+    margin-top: -16px;
+    font-size: 14px;
+}
+
+.message-signredirect{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: -10px;
+    
+}
+
+.link-signredirect{
+    color: black;
+    margin-left: 120px;
+    font-size: 14px;
+    margin-top: -16px;
+}
+
+.signup-button button {
+    background: #960c22;
+    width: auto;
+    padding: 10px;
+    width: 435px;
+    color: #fff;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+.display-button button{
+    background: #960c22;
+    width: auto;
+    padding: 10px;
+    width: 435px;
+    color: #fff;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+.display-table{
+  margin-left: 7%;
+}
+
+/*  ---------------------------------------------------------------------------------------------------------------------------------- 
+    HEADER & FOOTER FOR ALL PAGES 
+    UI: Justin
+    HEADER STICKY: Hunter
+    FOOTER STICKY: Hunter
+
+    Note: Use header.php & footer.php for all pages, no need to manually write headers, see documentation for more information
+*/
+ 
+
+.header-top {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #C8102E;
+    margin: 0;
+    font-family: Helvetica;
+    padding:0;
+}
+
+.header-top, footer{
+    background-color: #960C22;
+    color: white;
+}
+
+.header {
+    font-size: 0px; 
+    z-index: 8;
+}
+
+.header .button {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    width: 20%;
+    background-color: #960C22;
+}
+
+.header .button:hover {
+    background-color: #888B8D;
+}
+
+.page-content{
+    flex-grow: 1;
+}
+
+footer{
+    z-index: 8;
+}
+
+footer img{
+    float:left; 
+    margin-left:50px;
+}
+
+footer h1{
+    float:left; 
+    padding:20px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .page-content {
+    padding-top: 50px;
+}
+
+/*  ----------------------------------------------------------------------------------------------------------------------------------
+    HOME PAGE
+    UI: Justin
+*/
+
+.search .search-container {
+    float: center;
+    text-align: center;
+    font-size: 20px;
+}
+  
+.search input[type=text] {
+    padding: 17px;
+    font-size: 25px;
+    border: none;
+}
+  
+.search .search-container button {
+    float: center;
+    padding: 20px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 175px;
+}
+  
+.search .search-container button:hover {
+    background: #ccc;
+}
+
+.usrdash{
+    display:flex;
+    justify-content: center;
+}
