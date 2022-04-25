@@ -70,7 +70,7 @@
 
 
 <?php
-    include_once 'C:\xampp\htdocs\library\header.php';
+    include_once '..\header.php';
 
     $errors['submit'] = '';
     $userid = $_SESSION['User_id'];
