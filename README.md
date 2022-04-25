@@ -95,7 +95,7 @@ VALUES
 ```
 ## Features
 
-### Admin Panel
+## Admin Panel
 -  Dashboard holds reports and general statistics about the website along with a audit log listing any edits done to the items within the database
 - User/Item (Book, Journal, Disk, Electronics) pages involve the use of create, read, update, delete operations, sorting and search filter functionality to display data of each of their respective table
 - Loans page allows admins/librarians to confirm that a item has been returned and will update the user according to whether they turned in an item on time or not (get a fine if they dont) 
