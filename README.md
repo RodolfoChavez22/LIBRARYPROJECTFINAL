@@ -98,12 +98,19 @@ VALUES
 ## Features
 
 ## Admin Panel
--  Dashboard holds reports and general statistics about the website along with a audit log listing any edits done to the items within the database
+- Dashboard holds reports and general statistics about the website along with a audit log listing any edits done to the items within the database
 - User/Item (Book, Journal, Disk, Electronics) pages involve the use of create, read, update, delete operations, sorting and search filter functionality to display data of each of their respective table
 - Loans page allows admins/librarians to confirm that a item has been returned and will update the user according to whether they turned in an item on time or not (get a fine if they dont) 
 - Requests tab allows admins/librarians to accept or cancel book requests, if accepted it gets forwarded to the loans page, if it gets cancelled it gets put back in the catalog. 
 - Restore page allows admins to recover any items that were marked for deletion.
 - Reports page displays loan history with search filter functionality as well as catalog item statistics
+
+## Data Reports
+- 4 visual data reports on the Admin Dashboard
+- A report that displays the amount of users registered by month
+- A report that displays the most active users based on the amount of loans they currently have
+- A report that displays the users with the highest fines
+- A report that displays the most popular / reserved items by month
 
 ## User Dashboard
 - Dashboard holds important user information with the option to update some of that information that may change like email or password.
