@@ -2,7 +2,7 @@
 
 # COSC 3380 Library Database
 
-## ACCOUNTS INFO IN GOOGLE DRIVE LINK
+#### ACCOUNTS INFO IN GOOGLE DRIVE LINK
 
 ### Team 1 Members
 - Hunter Jerry McPherson: [Hunter6058](https://github.com/Hunter6058)
